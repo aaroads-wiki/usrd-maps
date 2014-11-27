@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Adams Avenue Parkway.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Adams Avenue Parkway</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-111.9689373316529,41.15020962729962,0 -111.9689091044608,41.15130785006977,0 -111.9691444257056,41.15193875641234,0 -111.9698520345934,41.15356772966617,0 -111.9702019913027,41.15392324745454,0 -111.9710866033391,41.15473821650789,0 -111.9714866457279,41.15520572495851,0 -111.9725680647079,41.1558280131705,0 -111.9731612295485,41.15659100259097,0 -111.9732552904675,41.15720043499672,0 -111.9730011951836,41.15797266971183,0 -111.9722860249895,41.15875433040208,0 -111.9709514995109,41.15930674564449,0 -111.9694507003715,41.15997018759339,0 -111.9690742174959,41.16033155268667,0 -111.96872597978,41.1608675832337,0 -111.9686151039223,41.16150415454246,0 -111.9686056950994,41.16381499188542,0 -111.9685583532652,41.16759071668677,0 -111.9685725164731,41.17047445554588,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

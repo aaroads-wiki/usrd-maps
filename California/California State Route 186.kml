@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>California_State_Route_186</name>
+<Schema name="California_State_Route_186" id="California_State_Route_186">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Description" type="string"></SimpleField>
+	<SimpleField name="id" type="int"></SimpleField>
+</Schema>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>-114.727227000125822,32.718101000560864 -114.726487000174757,32.71889800044255 -114.724320000067792,32.721968999969533 -114.721512000078576,32.725539999171815 -114.720352999691045,32.726847999235929 -114.71656099929055,32.73080799928988 -114.71576699954727,32.732260999745506 -114.71576699954727,32.732809999881738 -114.715447000078825,32.733877999670142 -114.715560999940067,32.735709999616972 -114.716239999776008,32.736998999704213 -114.717460999425441,32.738299999445587 -114.719001999442582,32.74013100024564 -114.71932199981029,32.740548999736689</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>-114.71932199981029,32.740548999736689 -114.71945999987895,32.740729999989696 -114.719596999901455,32.74120999964191 -114.719627999532406,32.742080000192004 -114.719551999624912,32.743356999725904</coordinates></LineString>
+  </Placemark>
+</Folder></Document></kml>

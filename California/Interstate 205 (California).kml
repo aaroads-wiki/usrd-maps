@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Interstate 205 (California).kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Interstate 205 (California)</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-121.5641843039809,37.74265917145013,0 -121.5503628013514,37.74374107357492,0 -121.5329416075709,37.74255844914119,0 -121.5030509566242,37.74062678420708,0 -121.4986115424688,37.74049622813575,0 -121.4970383962418,37.74085263720788,0 -121.4949031047083,37.74112047372858,0 -121.493861329028,37.74161010709207,0 -121.4754354236381,37.74890655879587,0 -121.4485303203989,37.76011290886758,0 -121.4453264785524,37.76135810453448,0 -121.4435276941121,37.76202513493406,0 -121.4406044615661,37.76260367690394,0 -121.4379314691406,37.76301628210177,0 -121.4339428173372,37.76284637401788,0 -121.4255645658092,37.76299163537853,0 -121.4226278742308,37.76309722386071,0 -121.4146827502529,37.76435670905263,0 -121.4108011999619,37.76474229894558,0 -121.3899989466474,37.76490123946869,0 -121.3604381200648,37.76508097654874,0 -121.3552019941607,37.76507341938576,0 -121.35211277758,37.7652652965505,0 -121.335448218706,37.76683246942231,0 -121.3307554210663,37.76794075096849,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

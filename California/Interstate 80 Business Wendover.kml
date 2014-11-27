@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+        <name>Interstate 80 Business (West Wendover, Nevada–Wendover, Utah).kml</name>
+        <Style id="sh_ylw-pushpin">
+                <IconStyle>
+                        <scale>1.3</scale>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+                </IconStyle>
+                <LineStyle>
+                        <color>ff0000ff</color>
+                        <width>5</width>
+                </LineStyle>
+        </Style>
+        <Style id="sn_ylw-pushpin">
+                <IconStyle>
+                        <scale>1.1</scale>
+                        <Icon>
+                                <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+                        </Icon>
+                        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+                </IconStyle>
+                <LineStyle>
+                        <color>ff0000ff</color>
+                        <width>5</width>
+                </LineStyle>
+        </Style>
+        <StyleMap id="msn_ylw-pushpin">
+                <Pair>
+                        <key>normal</key>
+                        <styleUrl>#sn_ylw-pushpin</styleUrl>
+                </Pair>
+                <Pair>
+                        <key>highlight</key>
+                        <styleUrl>#sh_ylw-pushpin</styleUrl>
+                </Pair>
+        </StyleMap>
+        <Placemark>
+                <name>Interstate 80 Business (West Wendover, Nevada–Wendover, Utah)</name>
+                <styleUrl>#msn_ylw-pushpin</styleUrl>
+                <LineString>
+                        <tessellate>1</tessellate>
+                        <coordinates>
+                                -114.0577532795174,40.73969572119823,0 -114.0583041569559,40.7377249795448,0 -114.0575175330887,40.7374743342675,0 -114.0561169329077,40.73722910211757,0 -114.0543990021034,40.73691077113613,0 -114.0522809943196,40.73653502828657,0 -114.0498043357366,40.73613843192949,0 -114.0478865309223,40.73583573512033,0 -114.0457342994451,40.73571076588517,0 -114.0434442008602,40.73578962204646,0 -114.0412990670315,40.73621859582712,0 -114.0391125323129,40.73669980010187,0 -114.0372708610495,40.73716000812922,0 -114.03531876823,40.73755225053232,0 -114.0332631294604,40.73780857268697,0 -114.0311867147303,40.73782442760919,0 -114.029199931353,40.73775660851675,0 -114.0249916756572,40.73815401089808,0 -114.0222595941449,40.73849378813787,0 -114.0205735528096,40.73922853813081,0 -114.0194904620299,40.7400334549825,0 -114.0189316405679,40.7410944980137,0 -114.0184969744767,40.74244302228394,0 -114.0179173954721,40.74370790184633,0 -114.0173239218505,40.74590838555348,0 
+                        </coordinates>
+                </LineString>
+        </Placemark>
+</Document>
+</kml>

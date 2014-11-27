@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Utah State Route 202.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Utah State Route 202</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-112.162879576972,40.72605760217662,0 -112.162780030374,40.7266209545908,0 -112.1627230187665,40.72700296357895,0 -112.1627425838614,40.72721520606358,0 -112.1628117503541,40.72738536453698,0 -112.1629546774667,40.72756526998001,0 -112.1634677338821,40.72802544537019,0 -112.1648859244477,40.72925242988102,0 -112.1662159145574,40.73044581130262,0 -112.1675738511552,40.73164696966881,0 -112.1687132266895,40.73265630650348,0 -112.1703864810727,40.73415690831276,0 -112.1716198368881,40.73524367595906,0 -112.1730965664641,40.73664149971778,0 -112.1747797864611,40.73815561272336,0 -112.1760890378835,40.73931979340035,0 -112.177499922547,40.74059682374075,0 -112.1792177649124,40.74212093152148,0 -112.1804956001358,40.74327349394603,0 -112.1812328369757,40.74391056018654,0 -112.182861242367,40.74503950759516,0 -112.1847617741932,40.74638207824692,0 -112.1858187823287,40.747093920957,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
